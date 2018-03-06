@@ -12,6 +12,6 @@ end
 
 def swap_elements(array)
   new_array = []
-  new_array << array[0] + array[1..2].sort {|a,b| b <=> a}
+  new_array << (array[0] + array[1..2].sort {|a,b| b <=> a})
 
 end
